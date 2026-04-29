@@ -169,7 +169,10 @@
             "enabled": false
         },
         "Dearrow": {
-            "enabled": true
+            "enabled": true,
+            "hideButton": false,
+            "replaceElements": 0,
+            "dearrowByDefault": true
         },
         "Decor": {
             "enabled": false
@@ -181,7 +184,8 @@
             "enabled": true
         },
         "Experiments": {
-            "enabled": true
+            "enabled": true,
+            "toolbarDevMenu": false
         },
         "ExpressionCloner": {
             "enabled": true
@@ -266,7 +270,8 @@
             "enabled": false
         },
         "ImplicitRelationships": {
-            "enabled": true
+            "enabled": true,
+            "sortByAffinity": true
         },
         "IrcColors": {
             "enabled": false
@@ -278,7 +283,12 @@
             "enabled": false
         },
         "LoadingQuotes": {
-            "enabled": true
+            "enabled": true,
+            "replaceEvents": true,
+            "enableDiscordPresetQuotes": false,
+            "additionalQuotes": "",
+            "additionalQuotesDelimiter": "|",
+            "enablePluginPresetQuotes": true
         },
         "MemberCount": {
             "enabled": true,
@@ -513,7 +523,7 @@
             "bgOpacity": 100
         },
         "ShowAllMessageButtons": {
-            "enabled": true
+            "enabled": false
         },
         "ShowConnections": {
             "enabled": true
@@ -720,6 +730,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1777487080220
+        "settingsSyncVersion": 1777488090037
     }
 }
