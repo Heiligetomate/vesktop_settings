@@ -58,7 +58,10 @@
             "enabled": false
         },
         "AnonymiseFileNames": {
-            "enabled": true
+            "enabled": true,
+            "anonymiseByDefault": true,
+            "method": 0,
+            "randomisedLength": 7
         },
         "AppleMusicRichPresence": {
             "enabled": false
@@ -85,7 +88,8 @@
         },
         "BetterNotesBox": {
             "enabled": true,
-            "hide": false
+            "hide": false,
+            "noSpellCheck": false
         },
         "BetterRoleContext": {
             "enabled": true
@@ -264,7 +268,7 @@
             "showFullUrl": false
         },
         "ImageLink": {
-            "enabled": true
+            "enabled": false
         },
         "ImageZoom": {
             "enabled": false
@@ -662,7 +666,9 @@
             "enabled": true
         },
         "ViewIcons": {
-            "enabled": true
+            "enabled": true,
+            "format": "webp",
+            "imgSize": "1024"
         },
         "ViewRaw": {
             "enabled": true,
@@ -730,6 +736,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1777488090037
+        "settingsSyncVersion": 1777846393670
     }
 }
